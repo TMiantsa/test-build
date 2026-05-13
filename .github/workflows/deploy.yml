@@ -30,7 +30,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'        # si ton site est dans un sous-dossier, mets './dist' ou './public'
+          path: '.'        # teny gasy
 
       - name: Deploy to GitHub Pages
         id: deployment
